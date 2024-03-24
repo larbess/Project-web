@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+/*header*/
+.nav{
+    position: fixed;
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1fd1f9;
+    z-index: 999;
+   }
+  .nav h2{
+    margin: 0;
+  }
+   .nav ul{
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+   }
+   .nav ul li{
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    padding: 20px;
+   }
+   .nav ul li a{
+    text-decoration: none;
+    color:azure;
+   }
+   /*.nav ul li a:hover{
+    color: #03c8a8;
+   }*/
+   .nav li::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    right: 0;
+    background:#61398F;
+    transition: all 900ms ease-in;
+   }
+   .nav li:hover::after{
+    width: 50%;
+    /*transition: 0.2s ease ;
+    /*transform: scale(0.2s);*/
+   }
+   .nav li::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    left: 0;
+    background: #61398F;
+    transition: all 900ms ease-in;
+  }
+   .nav li:hover::before{
+    width: 50%;
+    /*transition: 0.2s ease ;
+    /*transform: scale(0.2s);*/
+   }
+   .menu{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+   }
+  .life,.do{
+    margin: 2%;
+    background-color:#03c8a8 ;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+   }
+   .life{
+    background: url(https://media.sudouest.fr/8353460/1000x500/marie-curie.jpg?v=1644250274) no-repeat;
+    background-size:cover;
+    background-position: 50%;
+   }
+   .do{
+    background: url(https://www.swr.de/swr2/wissen/1653900861111%2Cmarie-curie-im-labor-100~_v-16x9@2dM_-ad6791ade5eb8b5c935dd377130b903c4b5781d8.jpg) no-repeat;
+    background-size:cover;
+    background-position: 0.1%;
+   }
+   .life span,.do span{
+    padding: 15px;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    background-color: rgb(255,255, 255,0.1);
+    backdrop-filter: blur(7px);
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+   }
+  .col-sm-6{
+    flex: 0 0 auto;
+    width: 45%;
+  }
+  @media (min-width: 1200px) {
+    
+  }
+  @media (min-width:992px) and (max-width:1199px){
+   
+  }
+  @media (min-width: 768px) and (max-width:991px){
+    .col-md-4 {/* si Medium ≥768px .col-md-  (min-width: 768px)*/
+      flex: 0 0 auto;
+      width: 33.333333%;
+    }
+  }
+  /*la taille de tablet et phone*/
+  @media (max-width: 767px) {
+    .menu{
+      padding: 20%;
+      display: block;
+    }
+    .col-sm-12 {/*Small ≥576px .col-sm (min-width: 576px)*/
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
