@@ -4,20 +4,22 @@
   body{
     margin: 0;
     padding: 0;
+    background-color: #feefe3;
   }
-/*header*/
+/*...............header..............................*/
 .nav{
-    position: fixed;
+    top: 0;
     padding: 0 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1fd1f9;
+    background-color:#EE6C4D;
     z-index: 999;
    }
   .nav h2{
     margin: 0;
+    color: white;
   }
    .nav ul{
     display: flex;
@@ -44,7 +46,7 @@
     height: 3px;
     width: 0;
     right: 0;
-    background:#61398F;
+    background:#7f0000;
     transition: all 900ms ease-in;
    }
    .nav li:hover::after{
@@ -59,7 +61,7 @@
     height: 3px;
     width: 0;
     left: 0;
-    background: #61398F;
+    background:#7f0000;
     transition: all 900ms ease-in;
   }
    .nav li:hover::before{
@@ -67,6 +69,7 @@
     /*transition: 0.2s ease ;
     /*transform: scale(0.2s);*/
    }
+   /*....end header..................*/
    .menu{
     padding: 60px;
     display: flex;
@@ -74,7 +77,6 @@
    }
   .life,.do{
     margin: 2%;
-    background-color:#03c8a8 ;
     height: 300px;
     overflow: hidden;
     position: relative;
@@ -100,7 +102,7 @@
     text-align: center;
     text-transform: uppercase;
    }
-  .col-sm-6{
+  .col-sm-6{/* pour modifier la taille */
     flex: 0 0 auto;
     width: 45%;
   }
