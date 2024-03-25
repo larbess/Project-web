@@ -14,12 +14,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#EE6C4D;
+    background-color:#ff9176;
     z-index: 999;
    }
   .nav h2{
     margin: 0;
     color: white;
+    font-weight: bold;
   }
    .nav ul{
     display: flex;
@@ -34,7 +35,7 @@
    }
    .nav ul li a{
     text-decoration: none;
-    color:azure;
+    color: #feefe3;
    }
    /*.nav ul li a:hover{
     color: #03c8a8;
@@ -46,7 +47,7 @@
     height: 3px;
     width: 0;
     right: 0;
-    background:#7f0000;
+    background:azure;
     transition: all 900ms ease-in;
    }
    .nav li:hover::after{
@@ -61,7 +62,7 @@
     height: 3px;
     width: 0;
     left: 0;
-    background:#7f0000;
+    background:azure;
     transition: all 900ms ease-in;
   }
    .nav li:hover::before{
@@ -106,6 +107,43 @@
     flex: 0 0 auto;
     width: 45%;
   }
+  /*..pour go to the top (main) ...*/
+  .go-to-top{
+    width: 20px;
+    height: 30px;
+   /* background-color: rgb(255,255, 255,0.1);
+    backdrop-filter: blur(1px);*/
+    background-color: #ff9176;
+    cursor: pointer;
+    width: 43px;
+    height: 43px;
+    color: azure;
+    font-size: 20px;
+    position: fixed;
+    border-radius: 30px;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* line-height: 1.4;*/
+    transition: all 0.2s;
+    right: 10px;
+    margin-left: 20px;
+}
+.go-to-top.active {
+    z-index: 30000000;
+}
+.go-to-top i {
+    font-size: 18px;
+    line-height: 1.9;
+}
+ /*.....end go to the top (main) ......*/
+
+ /*////////////////////////////////////*/
+/*////////////////////////////////////*/
+
+/* ........media...........*/
   @media (min-width: 1200px) {
     
   }

@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    croll-behavior: smooth;
+    scroll-behavior: smooth;
   }
   body{
     margin: 0;
@@ -26,4 +26,12 @@
     vertical-align: sub;
     font-size: 30px;
 }
- 
+.main section img{
+    width: 300px;
+    float: right;
+    margin: 20px;
+    border: #ff9176 solid 3px ;
+}
+.main .Étude{
+    clear: both;
+}
