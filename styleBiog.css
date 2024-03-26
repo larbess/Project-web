@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     background-color: #feefe3;
+    color: rgb(124, 29, 0);
+    position: relative;
   }
   /*...............header..............................*/
 .nav{
@@ -14,10 +16,17 @@
    }
  /* ......end .....*/
  .main{
-    margin: 50px;
+    margin: 60px;
  }
 .main h1{
-    margin-top: 70px;
+    margin-top: 80px;
+}
+.main section{
+    margin: 60px 0 ;
+}
+.main section h2{
+    background-color: azure;
+    padding: 30px;
 }
 .main section p{
     text-indent: 20px;
@@ -26,12 +35,44 @@
     vertical-align: sub;
     font-size: 30px;
 }
-.main section img{
-    width: 300px;
+.main .familiale img ,.main .mariage img{
     float: right;
     margin: 20px;
     border: #ff9176 solid 3px ;
 }
-.main .Étude{
-    clear: both;
+.main .familiale img{
+    width: 200px;
+}
+.main .mariage img{
+    width: 400px;
+}
+
+#info{  
+       font-size: 20px;
+        background-color: #ff9176;
+        color: aliceblue;
+        padding: 30px;
+        width: 100%;
+      }
+#info table th{
+   padding: 10px;
+   text-align: left;
+}
+
+/* ........media...........*/
+@media (min-width: 1200px) {
+    .familiale img{
+        width: 50px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+ 
+}
+@media (min-width: 768px) and (max-width:991px){
+ 
+
+}
+/*la taille de tablet et phone*/
+@media (max-width: 767px) {
+  
 }
