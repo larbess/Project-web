@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
  *{
     box-sizing: border-box;
+    
   }
   body{
     margin: 0;
@@ -10,6 +11,7 @@
   }
 /*...............header..............................*/
 .nav{
+    position: fixed;
     top: 0;
     padding: 0 30px;
     width: 100%;
@@ -22,15 +24,13 @@
   .nav h2{
     font-weight: bold;
     margin-left: 10px;
-    color: black;
+    color: azure;
     transition: all 0.3s ease;
   }
 
   .nav h2:hover{
-    
     color: #66417a;
-    letter-spacing: 3px;
-    
+    letter-spacing: 3px; 
   }
    .nav ul{
     display: flex;
@@ -38,14 +38,15 @@
     margin: 0;
    }
    .nav ul li{
+    font-size: 20px;
     list-style: none;
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 30px;
    }
    .nav ul li a{
     text-decoration: none;
-    color: black;
+    color: azure;
    }
    /*.nav ul li a:hover{
     color: #03c8a8;
@@ -57,7 +58,7 @@
     height: 3px;
     width: 0;
     right: 0;
-    background:black;
+    background:azure;
     transition: all 900ms ease-in;
    }
    .nav li:hover::after{
@@ -72,7 +73,7 @@
     height: 3px;
     width: 0;
     left: 0;
-    background:black;
+    background:azure;
     transition: all 900ms ease-in;
   }
    .nav li:hover::before{
@@ -80,8 +81,24 @@
     /*transition: 0.2s ease ;
     /*transform: scale(0.2s);*/
    }
-   /*....end header..................*/
-   
+   /*........end header..................*/
+   /*.....main........*/
+   .main{
+    margin: 60px;
+    font-style: italic;  
+    color:black; 
+    font-size: larger;
+   }
+   .Introd {
+    margin-top: 100px;
+   }
+   .main .Introd p{
+    text-indent: 20px;
+}
+   .main .Introd p span{
+    vertical-align: sub;
+    font-size: 30px;
+}
    .menu{
     padding: 60px;
     display: flex;
@@ -118,12 +135,10 @@
     flex: 0 0 auto;
     width: 45%;
   }
-  /*..pour go to the top (main) ...*/
+/*..pour go to the top (main) ...*/
   .go-to-top{
     width: 20px;
     height: 30px;
-   /* background-color: rgb(255,255, 255,0.1);
-    backdrop-filter: blur(1px);*/
     background-color:#dc9cfe;
     cursor: pointer;
     width: 43px;
@@ -137,7 +152,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   /* line-height: 1.4;*/
     transition: all 0.2s;
     right: 10px;
     margin-left: 20px;
@@ -150,6 +164,37 @@
     line-height: 1.9;
 }
  /*.....end go to the top (main) ......*/
+/* ....................end main.....................*/
+
+ /*..............footer .............*/
+#info{ 
+  font-size: larger;
+  background-color:  #dc9cfe; 
+   color: azure;
+   padding: 30px;
+   width: 100%;
+} 
+#info h2{
+  text-decoration: underline;
+  color: #66417a;
+}
+#info h1{
+  text-align: center;
+}
+#info table{
+  margin: 30px;
+}
+#info table th{
+font-size: 25px;
+padding: 10px;
+text-align: left;
+text-decoration: underline;
+}
+#info .quote h3{
+color: #66417a;
+text-align: center;
+} 
+ /*.............. end footer .............*/
 
  /*////////////////////////////////////*/
 /*////////////////////////////////////*/

@@ -7,24 +7,21 @@
     margin: 0;
     padding: 0;
     background-color: #feefe3;
-    color: rgb(124, 29, 0);
     position: relative;
   }
   /*...............header..............................*/
-.nav{
+/*.nav{
     position: fixed;
     top: 0;  /*le reste de code est dans style.css pour evite la repition de code*/
-   }
+   /*}
  /* ......end .....*/
- .main{
-    margin: 60px;
- }
+
 .main h1{
     margin-top: 80px;
 }
-.main section{
-    margin: 60px 0 ;
-}
+/*.main section{
+    margin: 0px 0 ;
+}*/
 .main section h2{
     background-color: azure;
     padding: 30px;
@@ -74,30 +71,14 @@
 
 .main .projets img{
     width: 400px;
-    transition: transform 0.3s;
-
-    
+    transition: transform 0.3s;  
 }
 
 .main .projets img:hover{
-
     width: 400px;
     transform: scale(1.1);
-    
 }
 
-#info{  
-       font-size: 20px;
-        background-color: #ff9176;
-        color: aliceblue;
-        padding: 30px;
-        width: 100%;
-      }
-#info table th{
-   padding: 10px;
-   text-align: left;
-   text-decoration: underline;
-}
 
 /* ........media...........*/
 @media (min-width: 1200px) {
