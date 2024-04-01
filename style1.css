@@ -14,13 +14,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#ff9176;
+    background-color:#dc9cfe;
     z-index: 1;
    }
   .nav h2{
-    margin: 0;
-    color: white;
-    font-weight: bold;
+    margin-left: 10px;
+    color: black;
+    transition: all 0.3s ease;
+  }
+
+  .nav h2:hover{
+    
+    color: #66417a;
+    letter-spacing: 3px;
+    
   }
    .nav ul{
     display: flex;
@@ -35,7 +42,7 @@
    }
    .nav ul li a{
     text-decoration: none;
-    color: #feefe3;
+    color: black;
    }
    /*.nav ul li a:hover{
     color: #03c8a8;
@@ -47,7 +54,7 @@
     height: 3px;
     width: 0;
     right: 0;
-    background:azure;
+    background:black;
     transition: all 900ms ease-in;
    }
    .nav li:hover::after{
@@ -62,7 +69,7 @@
     height: 3px;
     width: 0;
     left: 0;
-    background:azure;
+    background:black;
     transition: all 900ms ease-in;
   }
    .nav li:hover::before{
@@ -114,7 +121,7 @@
     height: 30px;
    /* background-color: rgb(255,255, 255,0.1);
     backdrop-filter: blur(1px);*/
-    background-color: #ff9176;
+    background-color:#dc9cfe;
     cursor: pointer;
     width: 43px;
     height: 43px;
