@@ -92,19 +92,26 @@
    .Introd {
     margin-top: 100px;
    }
-   .main .Introd p{
+   .Introd p{
     text-indent: 20px;
 }
-   .main .Introd p span{
+   .Introd p span{
     vertical-align: sub;
     font-size: 30px;
 }
-   .menu{
+  .Introd img{
+    width: 300px;
+    float: right;
+    margin: 20px;
+    border: #aa7efc solid 3px ;
+  }
+  .card .menu{
+    clear: both;
     padding: 60px;
     display: flex;
     justify-content: space-between;
    }
-  .life,.do{
+   .menu .life,.menu .do{
     margin: 2%;
     height: 300px;
     overflow: hidden;
