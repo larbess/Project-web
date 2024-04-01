@@ -20,6 +20,7 @@
     z-index: 1;
    }
   .nav h2{
+    font-weight: bold;
     margin-left: 10px;
     color: black;
     transition: all 0.3s ease;
