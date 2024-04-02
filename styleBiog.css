@@ -111,9 +111,7 @@
 .main .ouv img{
     width: 300px;
     transition: transform 0.3s;
-    
 }
-
 .main .ouv img:hover{
     width: 200px;
     transform: scale(1.1);
