@@ -109,7 +109,7 @@
 
 
 .main .ouv img{
-    width: 300px;
+    width: 200px;
     transition: transform 0.3s;
 }
 .main .ouv img:hover{
