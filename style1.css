@@ -24,12 +24,12 @@
   .nav h2{
     /*font-weight: bold;*/
     /*margin-left: 10px;*/
-    color: azure;
+    color: #feefe3;
     transition: all 0.3s ease;
   }
 
   .nav h2:hover{
-    color: #66417a;
+    color: azure;
     letter-spacing: 3px; 
   }
    .nav ul{
@@ -46,7 +46,7 @@
    }
    .nav ul li a{
     text-decoration: none;
-    color: azure;
+    color: #66417a;
    }
    /*.nav ul li a:hover{
     color: #03c8a8;
@@ -58,7 +58,7 @@
     height: 3px;
     width: 0;
     right: 0;
-    background:azure;
+    background:#66417a;
     transition: all 900ms ease-in;
    }
    .nav li:hover::after{
@@ -73,7 +73,7 @@
     height: 3px;
     width: 0;
     left: 0;
-    background:azure;
+    background:#66417a;
     transition: all 900ms ease-in;
   }
    .nav li:hover::before{
@@ -177,16 +177,17 @@
 #info{ 
   font-size: larger;
   background-color:  #dc9cfe; 
-   color: azure;
+   color:#66417a ;
    padding: 30px;
    width: 100%;
 } 
 #info h2{
   text-decoration: underline;
-  color: #66417a;
+  color:  #000 ;
 }
 #info h1{
   text-align: center;
+  color:  #feefe3;
 }
 #info table{
   margin: 30px;
@@ -198,7 +199,7 @@ text-align: left;
 text-decoration: underline;
 }
 #info .quote h3{
-color: #66417a;
+color:black;
 text-align: center;
 } 
  /*.............. end footer .............*/
