@@ -63,12 +63,12 @@
 
 
 .main .projets img{
-    width: 400px;
+    width: 200px;
     transition: transform 0.3s;  
 }
 
 .main .projets img:hover{
-    width: 400px;
+    width: 200px;
     transform: scale(1.1);
 }
 /* a une relation avec le taravaux.html */
